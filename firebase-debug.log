@@ -1,0 +1,169 @@
+[debug] [2018-03-13T08:43:45.404Z] ----------------------------------------------------------------------
+[debug] [2018-03-13T08:43:45.411Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Adroit\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-03-13T08:43:45.412Z] CLI Version:   3.17.5
+[debug] [2018-03-13T08:43:45.412Z] Platform:      win32
+[debug] [2018-03-13T08:43:45.413Z] Node Version:  v6.11.3
+[debug] [2018-03-13T08:43:45.414Z] Time:          Tue Mar 13 2018 09:43:45 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-03-13T08:43:45.414Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-13T08:43:45.443Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-03-13T08:43:45.446Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\xampp\htdocs\AdroitCode
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-03-13T08:43:55.668Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-13T08:43:55.673Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/nY_S1RAeUKHviBjbeLPK9K3ygWqqZrw9R2WRTrI7F8A',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Mar 13 2018 09:43:55 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-03-13T08:43:58.006Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-13T08:43:58.078Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Tue Mar 13 2018 09:43:58 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-03-13T08:44:10.108Z] Error: getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+[debug] [2018-03-13T08:44:23.810Z] ----------------------------------------------------------------------
+[debug] [2018-03-13T08:44:23.820Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Adroit\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-03-13T08:44:23.822Z] CLI Version:   3.17.5
+[debug] [2018-03-13T08:44:23.822Z] Platform:      win32
+[debug] [2018-03-13T08:44:23.822Z] Node Version:  v6.11.3
+[debug] [2018-03-13T08:44:23.823Z] Time:          Tue Mar 13 2018 09:44:23 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-03-13T08:44:23.824Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-13T08:44:23.854Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-03-13T08:44:23.857Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\xampp\htdocs\AdroitCode
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-03-13T08:44:28.835Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Tue Mar 13 2018 09:44:28 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-03-13T08:44:40.909Z] Error: getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+[debug] [2018-03-13T08:44:52.012Z] ----------------------------------------------------------------------
+[debug] [2018-03-13T08:44:52.019Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Adroit\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-03-13T08:44:52.021Z] CLI Version:   3.17.5
+[debug] [2018-03-13T08:44:52.021Z] Platform:      win32
+[debug] [2018-03-13T08:44:52.021Z] Node Version:  v6.11.3
+[debug] [2018-03-13T08:44:52.022Z] Time:          Tue Mar 13 2018 09:44:52 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-03-13T08:44:52.022Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-13T08:44:52.058Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-03-13T08:44:52.060Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\xampp\htdocs\AdroitCode
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-03-13T08:44:56.847Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Tue Mar 13 2018 09:44:56 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-03-13T08:45:08.918Z] Error: getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+[debug] [2018-03-13T08:46:15.509Z] ----------------------------------------------------------------------
+[debug] [2018-03-13T08:46:15.516Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Adroit\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-03-13T08:46:15.517Z] CLI Version:   3.17.5
+[debug] [2018-03-13T08:46:15.517Z] Platform:      win32
+[debug] [2018-03-13T08:46:15.518Z] Node Version:  v6.11.3
+[debug] [2018-03-13T08:46:15.519Z] Time:          Tue Mar 13 2018 09:46:15 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-03-13T08:46:15.519Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-13T08:46:15.550Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-03-13T08:46:15.553Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\xampp\htdocs\AdroitCode
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-03-13T08:46:19.862Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Tue Mar 13 2018 09:46:19 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-03-13T08:46:31.941Z] Error: getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443

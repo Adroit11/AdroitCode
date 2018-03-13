@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/output.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/needed.css"/>
+    <title>Adroit Code Online</title>
+</head>
+<body class="font-mono bg-grey-lightest">
+    <div class="flex mb-4 bg-white h-16 pt-6 pl-8 pr-8 pb-8 border-b border-teal-lightest">
+        <div class="flex-1 h-auto">
+            <h1 class="text-lg font-semibold"><span class="text-grey-dark">&lt;</span><span class="text-teal-dark">Ad</span><span class="text-yellow-dark">roit</span><span class="text-red">Co</span><span class="text-teal-dark">de</span><span class="text-grey-dark">/&gt;</span> </h1>
+        </div>
+        <div class="h-auto flex-1 font-medium">
+            <ul class="list-reset flex float-right">
+                <li class="mr-6">
+                    <a class="no-underline text-teal-dark flex items-center pb-2 border-b border-orange-dark" href="#about">Get Stated</a>
+                </li>
+                <li class="mr-6">
+                    <a class="no-underline text-white opacity-50 md:text-grey-dark md:opacity-100 flex items-center pb-2 border-b border-transparent hover:opacity-100 md:hover:border-teal" href="#">About</a>
+                </li>
+                <li class="mr-6">
+                    <a class="no-underline text-white opacity-50 md:text-grey-dark md:opacity-100 flex items-center pb-2 border-b border-transparent hover:opacity-100 md:hover:border-teal" href="#">Contribute</a>
+                </li>
+                <li class="mr-6">
+                    <a class="no-underline text-white opacity-50 md:text-grey-dark md:opacity-100 flex items-center pb-2 border-b border-transparent hover:opacity-100 md:hover:border-teal" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="w-full text-center p-8 ">
+       <div class="container text-grey-lighter mx-auto mt-8">
+        <div class="flex mb-4 pt-4">
+            <div class="w-1/6 bg-dark font-semibold text-lg text-left pl-4 h-auto pb-8">
+                <div class="w-full block h-12">
+
+                </div>
+                <div class="w-full block">
+                    <a class="no-underline text-white" href="">index.html</a>
+                </div>
+                <div class="w-full block mt-2">
+                    <a class="no-underline text-grey-darker" href="">about.html</a>
+                </div>
+                <div class="w-full block mt-2">
+                    <a class="no-underline text-grey-darker" href="">login.html</a>
+                </div>
+                <div class="w-full block mt-2">
+                    <a class="no-underline text-grey-darker" href="">signup.html</a>
+                </div>
+            </div>
+            <div class="w-5/6 bg-darker text-left text-3xl font-medium h-auto pb-8">
+                <div class="w-full bg-darkest h-12">
+                    <div class="flex mb-4">
+                        <div class="w-1/4 bg-darker text-sm border-b border-grey-darkest h-12">
+                            <div class="w-full h-6 mt-4 ml-4">
+                                <span class="pt-8"><em>index.html</em></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-8 pt-4 text-grey-darkest tracking-wide" id="str"></div>
+                <div class="px-8 pt-4">
+                    <span class="text-grey-darkest">2 &lt;</span><span class="text-blue-dark">AdroitCode</span> <span class="text-teal-dark">class</span>=<span class="text-yellow-dark">"text-teal"</span><span class="text-grey-darkest">&gt;</span>
+
+                    <p><span class="text-grey-darkest">3 &nbsp;</span><span class="pl-8">AdroitCode is an online code editor designed by</span></p>
+                        <p><span class="text-grey-darkest">4 &nbsp;</span><a class="pl-8 text-orange no-underline" href="">Ogundiji Bolade Adio</a></span></p>
+                    
+                    <p><span class="text-grey-darkest">5 &nbsp;</span><span class="pl-8"></span>AdroitCode is a modern text editor that brings 
+                        <p><span class="text-grey-darkest">6 &nbsp;</span><span class="pl-8">the web development process into your web browser</span>
+                            <p><span class="text-grey-darkest">7 &nbsp;</span><span class="pl-8">(mobile/desktop).</span></p> 
+                            <p><span class="text-grey-darkest">8 &nbsp;</span><span class="pl-8">It's crafted for web designers and front-end</span></p>
+                            <p><span class="text-grey-darkest">9 &nbsp;</span><span class="pl-8">developers.</span></p>
+                    </p>
+            
+                    <span class="text-grey-darkest">10 &lt;</span><span class="text-blue-dark">/AdroitCode</span><span class="text-grey-darkest">&gt;</span>
+                    <p><span class="text-grey-darkest">11 &nbsp;</span>
+                    <p><span class="text-grey-darkest">12 &nbsp;</span>
+                    <p><span class="text-grey-darkest">13 &nbsp;</span>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <div class="w-full fixed text-teal-dark text-center tracking-wide h-12 p-4">&copy; Adroitly Designed</div>
+</body>
+<script>
+    var string = " 1 <!-- AdroitCode! Coding the web on the web -->";
+    var str = string.split("");
+    var el = document.getElementById('str');
+    (function animate() {
+    str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running); 
+    var running = setTimeout(animate, 200);
+    })();
+    
+</script>
+</html>

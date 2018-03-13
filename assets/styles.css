@@ -1,0 +1,7 @@
+@tailwind preflight;
+
+.bg-dark{
+    background-color: dark;
+}
+
+@tailwind utilities;
